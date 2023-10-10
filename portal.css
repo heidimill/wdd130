@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&display=swap');
+body{
+    font-family: Comfortaa, Caveat, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 /* * {
     border: 1px solid red;
 } */
@@ -15,6 +24,8 @@ a {
     padding: 10px;
     margin: 5px;
     text-align: center;
+    font-size: 1.25em;
+    border-radius: 10px;
 }
 a:hover{
     background-color: darkgray;
@@ -22,24 +33,31 @@ a:hover{
 }
 nav{
     display: flex;
+    justify-content: center;
 }
 #primary {
     background-color: pink;
 }
 h1{
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
+    margin: 30px;
 }
 img{
-    width: 60%;
+    width: 70%;
     display: block;
-    margin:0 auto;
+    margin: 20px auto;
+    border: 3px solid lightblue;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px; /*border-radius: 50%; for a circle */
 }
 p{
     /* text-align: center; */
-    width: 50%;
+    width: 70%;
     margin: 10px auto;
     padding: 10px;
+    box-sizing: border-box;
 }
 .background {
     background-color: lightgrey;
