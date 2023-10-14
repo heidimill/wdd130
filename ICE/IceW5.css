@@ -1,15 +1,15 @@
 img {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 div {
     width: 80%;
     background-color: gray;
-    margin: 0;
+    margin: 0 auto;
 }
 #circles img{
     width: 20%;
     border-radius: 50%;
-    border: 5px solid darkslategray;
-    margin: 25px;
+    border: 8px solid darkslategray;
+    margin: 35px;
 }

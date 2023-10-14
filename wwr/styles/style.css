@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,10 +7,14 @@
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color:  #144009;
@@ -16,6 +22,9 @@ nav a:hover {
 }
 .home-title {
     color: rgb(33, 31, 31);
+    font-family: Caveat, Verdana, Geneva;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: rgb(33, 31, 31);
@@ -32,8 +41,12 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #background {
     height: 725px;
@@ -41,6 +54,12 @@ main section {
 }
 body {
     background-color: #D5DCDF;
+    font-family: Comfortaa, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #389078;
@@ -49,6 +68,10 @@ header {
     background-color: #629AC3;
     color:rgb(33, 31, 31);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #144009;
@@ -56,16 +79,23 @@ header {
 }
 .msg {
     background-color: #389078;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: black;
+    font-family: Caveat;
 }
 .msg p {
     color: black;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #389078;
     color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -78,3 +108,12 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }  
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #144009;
+}
