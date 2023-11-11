@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&display=swap');
 
+
 #background {
     height: 725px;
     background-color: #144009;
@@ -178,6 +179,50 @@ nav a:hover {
     grid-column: 2/4;
     grid-row: 2/3;
 }
+
+
+/* Rivers page css */
+/* * {
+    border: 1px solid red;
+} */
+
+
+
+#river-title {
+    text-align: center;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.rivers-img-right {
+    grid-column: 3/4;
+
+    padding: 35px;
+    border: 50px solid #144009;
+    width: 100%;
+    align-self: center;
+    margin: 50px;
+}
+.rivers-img {
+    grid-column: 1/2;
+
+    width: 100%;
+}
+.paragraphs {
+    grid-column: 1/3;
+    padding: 35px;
+}
+.paragraphs-right {
+    grid-column: 2/4;
+    padding: 35px;
+}
+.paragraphs p, .paragraphs-right p {
+    font-size: 1.25em;
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
