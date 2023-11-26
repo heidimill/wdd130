@@ -58,6 +58,7 @@ nav a:hover {
     font-size: 4.5em;
     text-align: center;
     font-family: "Gochi Hand", Verdana;
+    color: #42273b;
 }
 
 
@@ -71,12 +72,15 @@ nav a:hover {
     grid-column: 1/6;
     text-align: center;
     font-size: 2.5em;
+    color: #42273b;
 }
 h2 {
     font-size: 2em;
+    color: #42273b;
 }
 p {
     font-size: 1em;
+    color: #42273b;
 }
 .calm-title {
     grid-column: 2/3;
